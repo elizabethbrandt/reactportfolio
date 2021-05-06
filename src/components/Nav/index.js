@@ -6,11 +6,11 @@ function Nav() {
             <AppBar position="static">
                 <Toolbar>
 
-                    <MenuItem href="/">Home</MenuItem>
-                    <MenuItem href="/projects">Projects</MenuItem>
-                    <MenuItem href="/resume">Resume</MenuItem>
-                    <MenuItem href="/about">About</MenuItem>
-                    <MenuItem href="/contact">Contact</MenuItem>
+                    <MenuItem component="a" href="/">Home</MenuItem>
+                    <MenuItem component="a" href="/projects">Projects</MenuItem>
+                    <MenuItem component="a" href="/resume">Resume</MenuItem>
+                    <MenuItem component="a" href="/about">About</MenuItem>
+                    <MenuItem component="a" href="/contact">Contact</MenuItem>
 
                 </Toolbar>
             </AppBar>
