@@ -1,13 +1,19 @@
+import { AppBar, MenuItem, Toolbar } from "@material-ui/core";
+
 function Nav() {
     return (
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+            <AppBar position="static">
+                <Toolbar>
+
+                    <MenuItem href="/">Home</MenuItem>
+                    <MenuItem href="/projects">Projects</MenuItem>
+                    <MenuItem href="/resume">Resume</MenuItem>
+                    <MenuItem href="/about">About</MenuItem>
+                    <MenuItem href="/contact">Contact</MenuItem>
+
+                </Toolbar>
+            </AppBar>
         </nav>
     )
 }
